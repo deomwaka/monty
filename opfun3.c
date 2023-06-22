@@ -1,6 +1,8 @@
+#define _POSIX_C_SOURCE 200809L
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h> // Add this header for isascii function
 #include "monty.h"
-#include <ctype.h>
-
 /**
  * mul - s
  * @stack: Double linked list
